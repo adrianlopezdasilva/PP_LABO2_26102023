@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{CAE25908-5139-45C7-8826-C72D668ABF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{CAE25908-5139-45C7-8826-C72D668ABF26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formularios", "Formularios\Formularios.csproj", "{4EFD20AD-32E0-4F8A-8A18-190AB5535CA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAE25908-5139-45C7-8826-C72D668ABF26} = {CAE25908-5139-45C7-8826-C72D668ABF26}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{F0B5E240-C923-4526-8067-4B4B25F75642}"
+	ProjectSection(SolutionItems) = preProject
+		Formularios\favIcon.ico = Formularios\favIcon.ico
+		Formularios\icons8-vehicles-64.png = Formularios\icons8-vehicles-64.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,10 @@ Global
 		{CAE25908-5139-45C7-8826-C72D668ABF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAE25908-5139-45C7-8826-C72D668ABF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAE25908-5139-45C7-8826-C72D668ABF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFD20AD-32E0-4F8A-8A18-190AB5535CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFD20AD-32E0-4F8A-8A18-190AB5535CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFD20AD-32E0-4F8A-8A18-190AB5535CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFD20AD-32E0-4F8A-8A18-190AB5535CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
