@@ -76,6 +76,7 @@
             btnFabricar.TabIndex = 3;
             btnFabricar.Text = "Fabricar";
             btnFabricar.UseVisualStyleBackColor = true;
+            btnFabricar.Click += btnFabricar_Click;
             // 
             // btnEliminar
             // 

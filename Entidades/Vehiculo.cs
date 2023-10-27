@@ -35,11 +35,10 @@ namespace Entidades
             this.esAWD = esAWD;
         }
 
-        protected string GetInfo()
+        protected virtual string GetInfo()
         {
 
-            return String.Format(this.Tipo, this.propulsion, this.esAWD, this.numeroDeChasis, "con propulsion a , es AWD, numer ode chasis");
-
+            return String.Format(this.Tipo, this.propulsion, this.esAWD, this.numeroDeChasis, "{0} con propulsion a {1}, {2} es AWD, numero de chasis {3}");
         }
 
         public static bool operator == (Vehiculo v1, Vehiculo v2)
@@ -52,10 +51,10 @@ namespace Entidades
             return !(v1 == v2);
         }
 
-        /*public String operator ToString()
+        public override string ToString()
         {
-            return "asdas";
-        }*/
+            return this.GetInfo();
+        }
 
 
     }

@@ -16,3 +16,6 @@ C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\obj\Debug
 C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\obj\Debug\net6.0-windows\Formularios.genruntimeconfig.cache
 C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\obj\Debug\net6.0-windows\ref\Formularios.dll
 C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\obj\Debug\net6.0-windows\Formularios.Properties.Resources.resources
+C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\bin\Debug\net6.0-windows\Entidades.dll
+C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Documents\Facultad\Programacion2023C2\PP_LABO2_26102023\Formularios\obj\Debug\net6.0-windows\Formularios.csproj.CopyComplete

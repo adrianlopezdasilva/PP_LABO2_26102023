@@ -20,5 +20,23 @@ namespace Entidades
             this.cabinaSimple = cabinaSimple;
             this.esAWD = true;
         }
+
+        protected override string GetInfo()
+        {
+            base.GetInfo();
+            StringBuilder sb = new StringBuilder();
+            if(this.cabinaSimple == true)
+            {
+                sb.AppendLine($"con cabina simple");
+
+            }
+            else
+            {
+                sb.AppendLine($"con cabina doble");
+
+            }
+
+            return sb.ToString();
+        }
     }
 }
